@@ -6,6 +6,8 @@ pipeline{
             steps {
                     echo "Iniciando processo de build..."
                     bat 'cd Teste_Jenkins'
+                    bat 'Job1.py'
+                    echo "Compilado com sucesso"
             }
         }
     }

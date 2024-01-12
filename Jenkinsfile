@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     stages{
-        stage ('Compilar'){
+        stage ('Compilar') {
             steps {
                 cd Teste_Jankins
                 Job1.py

@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage ('Compilar') {
             steps {
-                    cd Teste_Jankins
+                    echo "Iniciando processo de build"
             }
         }
     }

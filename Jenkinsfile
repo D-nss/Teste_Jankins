@@ -4,9 +4,11 @@ pipeline{
     stages{
         stage ('Compilar') {
             steps {
-                cd Teste_Jankins
-                    Job1.py
-                        echo 'Arquivo python compilado'
+                script{
+                    cd Teste_Jankins
+                        Job1.py
+                            echo 'Arquivo python compilado'
+                }
             }
         }
     }

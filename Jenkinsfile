@@ -5,7 +5,6 @@ pipeline{
         stage ('Compilar') {
             steps {
                     cd Teste_Jankins
-                }
             }
         }
     }

@@ -8,7 +8,7 @@ pipeline{
                     dir('Teste_Jenkins'){
                     bat 'Job1.py'
                     }
-                    echo "Compilado com sucesso!"
+                    echo "Compilado com sucesso"
             }
         }
     }
